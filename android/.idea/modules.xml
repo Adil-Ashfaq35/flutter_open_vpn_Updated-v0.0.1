@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_openvpn.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_openvpn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_openvpn.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_openvpn.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_openvpn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_openvpn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_openvpn.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_openvpn.unitTest.iml" />
+    </modules>
+  </component>
+</project>

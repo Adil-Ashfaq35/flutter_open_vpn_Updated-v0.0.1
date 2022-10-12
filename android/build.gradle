@@ -1,0 +1,42 @@
+group 'com.topfreelancerdeveloper.flutter_openvpn'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.2'
+    }
+
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 16
+        
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    dependencies {
+        // implementation 'com.github.Topfreelancerdeveloperr:flutter_openvpn_library_updated:d5809c66a2'
+        implementation 'com.github.MaduraDiasTreinetic:flutter_openvpn_library_updated:08b556f'
+    }
+
+}
+
