@@ -35,7 +35,7 @@ android {
     }
     dependencies {
 //         implementation 'com.github.Topfreelancerdeveloperr:flutter_openvpn_library_updated:d5809c66a2'
-        implementation 'com.github.MaduraDiasTreinetic:flutter_openvpn_library_updated_master:607af6e'
+        implementation 'com.github.MaduraDiasTreinetic:flutter_openvpn_library_updated_master:7a25683'
     }
 
 }
