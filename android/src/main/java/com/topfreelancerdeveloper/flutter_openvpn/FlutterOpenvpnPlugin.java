@@ -2,15 +2,15 @@ package com.topfreelancerdeveloper.flutter_openvpn;
 
 import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 
-import androidx.annotation.NonNull;
+//import androidx.annotation.NonNull;
 
-import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 
+import de.blinkt.openvpn.OboloiVPN;
+import de.blinkt.openvpn.OnVPNStatusChangeListener;
 import de.blinkt.openvpn.core.OpenVPNService;
+import de.blinkt.openvpn.onPermissionChanged;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
@@ -21,9 +21,6 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import de.blinkt.openvpn.OboloiVPN;
-import de.blinkt.openvpn.onPermissionChanged;
-import de.blinkt.openvpn.OnVPNStatusChangeListener;
 
 /** FlutterOpenvpnPlugin */
 
